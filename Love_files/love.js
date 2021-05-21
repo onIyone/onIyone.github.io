@@ -471,7 +471,8 @@
     Bloom = function(tree, point, figure, color, alpha, angle, scale, place, speed) {
         this.tree = tree;
         this.point = point;
-        this.color = color || 'rgb(255,' + random(0, 255) + ',' + random(0, 255) + ')';
+        //this.color = color || 'rgb(255,' + random(90, 255) + ',' + random(0, 220) + ')';
+        this.color = color || 'rgb('+random(230, 255) + ',' +  random(80, 220) + ',' + random(80, 220) + ')';
         this.alpha = alpha || random(0.3, 1);
         this.angle = angle || random(0, 360);
         this.scale = scale || 0.1;
